@@ -83,7 +83,7 @@ ENV LD_LIBRARY_PATH=/usr/local/lib
 VOLUME ["/app/towns", "/app/dlc", "/app/webpanel"]
 
 # Expose the server port (adjust if needed)
-EXPOSE 8080
+EXPOSE 90210
 
 # Set the entrypoint
 ENTRYPOINT ["./tsto-server"]
